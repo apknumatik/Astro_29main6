@@ -5,8 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { playPopSound } from "@/hooks/useAudio";
 import { useState, useRef } from "react";
 import { create, all } from "mathjs";
-import { BlockMath } from "react-katex"; // LaTeX rendering for math
-import "katex/dist/katex.min.css"; // Import KaTeX styles
+
+
 
 type AngleMode = "DEG" | "RAD";
 
