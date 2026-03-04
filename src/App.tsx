@@ -48,6 +48,8 @@ import BankSoalPage from "./pages/BankSoalPage";
 import ChatAIPage from "./pages/ChatAIPage";
 import PengaturanPage from "./pages/PengaturanPage";
 import TentangAplikasiPage from "./pages/TentangAplikasiPage";
+import KalkulatorScientificPage from "./pages/KalkulatorScientificPage";
+import VideoPembelajaranPage from "./pages/VideoPembelajaranPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -96,6 +98,8 @@ const AppInner = () => {
       <Route path="/lingkaran-quiz" element={<LingkaranQuizPage />} />
       <Route path="/referensi" element={<ReferensiPage />} />
       <Route path="/tugas-mandiri" element={<TugasMandiriPage />} />
+      <Route path="/kalkulator-scientific" element={<KalkulatorScientificPage />} />
+      <Route path="/video-pembelajaran" element={<VideoPembelajaranPage />} />
       <Route path="/donasi" element={<DonasiPage />} />
       <Route path="/biografi" element={<BiografiPage />} />
       <Route path="/olimpiade" element={<OlimpiadePage />} />

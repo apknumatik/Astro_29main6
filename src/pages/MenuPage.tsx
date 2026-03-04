@@ -1,6 +1,22 @@
 import { useNavigate } from "react-router-dom";
 import Starfield from "@/components/Starfield";
-import { BookOpen, Gamepad2, Info, BookMarked, ClipboardList, Heart, User, Trophy, Brain, Award, FileText, MessageCircle, Settings } from "lucide-react";
+import {
+  BookOpen,
+  Gamepad2,
+  Info,
+  BookMarked,
+  ClipboardList,
+  Heart,
+  User,
+  Trophy,
+  Brain,
+  Award,
+  FileText,
+  MessageCircle,
+  Settings,
+  Calculator,
+  PlayCircle,
+} from "lucide-react";
 import PageNavigation from "@/components/PageNavigation";
 import { playPopSound } from "@/hooks/useAudio";
 
@@ -9,6 +25,8 @@ const menuItems = [
   { label: "MATERI", icon: BookOpen, path: "/materi", desc: "Eksplorasi modul belajar interaktif dan mendalam" },
   { label: "GAME QUIZ", icon: Gamepad2, path: "/latihan", desc: "Quiz Pemahaman" },
   { label: "LATIHAN MANDIRI", icon: ClipboardList, path: "/tugas-mandiri", desc: "Latihan harian" },
+  { label: "KALKULATOR SCIENTIFIC", icon: Calculator, path: "/kalkulator-scientific", desc: "Hitung cepat dengan kalkulator scientific" },
+  { label: "VIDEO PEMBELAJARAN", icon: PlayCircle, path: "/video-pembelajaran", desc: "Belajar melalui video interaktif" },
   { label: "PAPAN PERINGKAT", icon: Award, path: "/papan-peringkat", desc: "Lihat peringkat siswa terbaik" },
   { label: "BANK SOAL", icon: FileText, path: "/bank-soal", desc: "Koleksi lengkap soal matematika" },
   { label: "CHAT DENGAN AI", icon: MessageCircle, path: "/chat-ai", desc: "Tanya jawab dengan AI matematika" },
