@@ -42,6 +42,7 @@ import TeoremaPythagorasMenuPage from "./pages/TeoremaPythagorasMenuPage";
 import StatistikaMenuPage from "./pages/StatistikaMenuPage";
 import PeluangMenuPage from "./pages/PeluangMenuPage";
 import PersamaanGarisLurusMenuPage from "./pages/PersamaanGarisLurusMenuPage";
+import PolaBilanganMenuPage from "./pages/PolaBilanganMenuPage";
 import PapanPeringkatPage from "./pages/PapanPeringkatPage";
 import BankSoalPage from "./pages/BankSoalPage";
 import ChatAIPage from "./pages/ChatAIPage";
@@ -89,6 +90,7 @@ const AppInner = () => {
       <Route path="/materi/statistika" element={<StatistikaMenuPage />} />
       <Route path="/materi/peluang" element={<PeluangMenuPage />} />
       <Route path="/materi/persamaan-garis-lurus" element={<PersamaanGarisLurusMenuPage />} />
+      <Route path="/materi/pola-bilangan" element={<PolaBilanganMenuPage />} />
       <Route path="/latihan" element={<LatihanPage />} />
       <Route path="/quiz" element={<QuizPage />} />
       <Route path="/lingkaran-quiz" element={<LingkaranQuizPage />} />
