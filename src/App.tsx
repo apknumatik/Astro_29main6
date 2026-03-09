@@ -90,6 +90,7 @@ import TeoremaPythagorasMGAK8Page from "./pages/math-game-arena/kelas8/TeoremaPy
 import LingkaranMGAK8Page from "./pages/math-game-arena/kelas8/LingkaranPage";
 import GarisSinggungLingkaranMGAK8Page from "./pages/math-game-arena/kelas8/GarisSinggungLingkaranPage";
 import BangunRuangSisiDatarMGAK8Page from "./pages/math-game-arena/kelas8/BangunRuangSisiDatarPage";
+import KubusGamePage from "./pages/math-game-arena/kelas8/KubusGamePage";
 
 // Math Game Arena - Kelas 9 Topic Pages
 import BilanganBerpangkatMGAK9Page from "./pages/math-game-arena/kelas9/BilanganBerpangkatPage";
@@ -236,6 +237,7 @@ const AppInner = () => {
       <Route path="/math-game-arena/kelas-8/lingkaran" element={<LingkaranMGAK8Page />} />
       <Route path="/math-game-arena/kelas-8/garis-singgung-lingkaran" element={<GarisSinggungLingkaranMGAK8Page />} />
       <Route path="/math-game-arena/kelas-8/bangun-ruang-sisi-datar" element={<BangunRuangSisiDatarMGAK8Page />} />
+      <Route path="/math-game-arena/kelas-8/bangun-ruang-sisi-datar/kubus-game" element={<KubusGamePage />} />
       
       {/* Math Game Arena - Kelas 9 Topic Routes */}
       <Route path="/math-game-arena/kelas-9/bilangan-berpangkat" element={<BilanganBerpangkatMGAK9Page />} />

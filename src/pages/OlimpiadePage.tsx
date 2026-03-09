@@ -60,8 +60,6 @@ const OlimpiadePage = () => {
                 playPopSound();
                 if (topik === "Bilangan Bulat") {
                   navigate("/olimpiade/bilangan-bulat");
-                } else if (topik === "Bangun Ruang Sisi Datar") {
-                  navigate("/quiz");
                 }
               }}
               className="group flex items-center gap-4 bg-card/80 backdrop-blur border border-border rounded-xl px-5 py-4
@@ -71,8 +69,8 @@ const OlimpiadePage = () => {
             >
               <Trophy className="w-5 h-5 text-accent shrink-0 group-hover:scale-110 transition-transform" />
               <span className="font-body text-sm text-white">{topik}</span>
-              {(topik === "Bilangan Bulat" || topik === "Bangun Ruang Sisi Datar") && (
-                <span className="ml-auto text-xs text-accent font-display">📖 BUKA</span>
+              {topik === "Bilangan Bulat" && (
+                <span className="ml-auto text-xs text-accent font-display">BUKA</span>
               )}
             </button>
           ))}

@@ -32,7 +32,12 @@ const BangunRuangSisiDatarPage = () => {
           {subtopics.map((subtopic, i) => (
             <button
               key={subtopic}
-              onClick={() => playPopSound()}
+              onClick={() => {
+                playPopSound();
+                if (subtopic === "KUBUS") {
+                  navigate("/math-game-arena/kelas-8/bangun-ruang-sisi-datar/kubus-game");
+                }
+              }}
               className="group flex items-center gap-4 bg-card/80 backdrop-blur border border-border rounded-xl px-5 py-4
                 hover:border-accent/60 transition-all duration-300
                 cursor-pointer text-left animate-slide-up"
@@ -40,6 +45,9 @@ const BangunRuangSisiDatarPage = () => {
             >
               <ChevronRight className="w-4 h-4 text-accent shrink-0 group-hover:translate-x-1 transition-transform" />
               <span className="font-body text-sm text-white">{subtopic}</span>
+              {subtopic === "KUBUS" && (
+                <span className="ml-auto text-xs text-accent font-display">GAME</span>
+              )}
             </button>
           ))}
         </div>
