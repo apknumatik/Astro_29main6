@@ -15,12 +15,14 @@ import {
   PlayCircle,
   ClipboardList,
   Gamepad2,
+  BookOpen,
 } from "lucide-react";
 import PageNavigation from "@/components/PageNavigation";
 import { playPopSound } from "@/hooks/useAudio";
 
 const menuItems = [
   { label: "PETUNJUK", icon: Info, path: "/petunjuk", desc: "Panduan penggunaan" },
+  { label: "MATERI MATEMATIKA", icon: BookOpen, path: "/materi-matematika", desc: "Pelajari materi matematika lengkap" },
   { label: "LATIHAN MANDIRI", icon: ClipboardList, path: "/latihan-mandiri", desc: "Latihan soal per topik" },
   { label: "MATH GAME ARENA", icon: Gamepad2, path: "/math-game-arena", desc: "Bermain game matematika interaktif" },
   { label: "KALKULATOR SCIENTIFIC", icon: Calculator, path: "/kalkulator-scientific", desc: "Hitung cepat dengan kalkulator scientific" },

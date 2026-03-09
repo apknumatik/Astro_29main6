@@ -101,6 +101,44 @@ import PeluangMGAK9Page from "./pages/math-game-arena/kelas9/PeluangPage";
 import PersamaanKuadratMGAK9Page from "./pages/math-game-arena/kelas9/PersamaanKuadratPage";
 import FungsiKuadratMGAK9Page from "./pages/math-game-arena/kelas9/FungsiKuadratPage";
 
+// Materi Matematika Pages
+import MateriMatematikaPage from "./pages/MateriMatematikaPage";
+import MateriMatematikaKelas7Page from "./pages/MateriMatematikaKelas7Page";
+import MateriMatematikaKelas8Page from "./pages/MateriMatematikaKelas8Page";
+import MateriMatematikaKelas9Page from "./pages/MateriMatematikaKelas9Page";
+
+// Materi Matematika - Kelas 7 Topic Pages
+import BilanganBulatMMK7Page from "./pages/materi-matematika/kelas7/BilanganBulatPage";
+import BilanganRasionalMMK7Page from "./pages/materi-matematika/kelas7/BilanganRasionalPage";
+import AljabarMMK7Page from "./pages/materi-matematika/kelas7/AljabarPage";
+import PLSVPtLSVMMK7Page from "./pages/materi-matematika/kelas7/PLSVPtLSVPage";
+import PerbandinganMMK7Page from "./pages/materi-matematika/kelas7/PerbandinganPage";
+import AritmetikaSosialMMK7Page from "./pages/materi-matematika/kelas7/AritmetikaSosialPage";
+import GarisDanSudutMMK7Page from "./pages/materi-matematika/kelas7/GarisDanSudutPage";
+import SegitigaSegiempatMMK7Page from "./pages/materi-matematika/kelas7/SegitigaSegiempatPage";
+import HimpunanMMK7Page from "./pages/materi-matematika/kelas7/HimpunanPage";
+
+// Materi Matematika - Kelas 8 Topic Pages
+import PolaBilanganMMK8Page from "./pages/materi-matematika/kelas8/PolaBilanganPage";
+import KoordinatCartesiusMMK8Page from "./pages/materi-matematika/kelas8/KoordinatCartesiusPage";
+import RelasiFungsiMMK8Page from "./pages/materi-matematika/kelas8/RelasiFungsiPage";
+import SPLDVMMK8Page from "./pages/materi-matematika/kelas8/SPLDVPage";
+import PersamaanGarisLurusMMK8Page from "./pages/materi-matematika/kelas8/PersamaanGarisLurusPage";
+import TeoremaPythagorasMMK8Page from "./pages/materi-matematika/kelas8/TeoremaPythagorasPage";
+import LingkaranMMK8Page from "./pages/materi-matematika/kelas8/LingkaranPage";
+import GarisSinggungLingkaranMMK8Page from "./pages/materi-matematika/kelas8/GarisSinggungLingkaranPage";
+import BangunRuangSisiDatarMMK8Page from "./pages/materi-matematika/kelas8/BangunRuangSisiDatarPage";
+
+// Materi Matematika - Kelas 9 Topic Pages
+import BilanganBerpangkatMMK9Page from "./pages/materi-matematika/kelas9/BilanganBerpangkatPage";
+import KesebangunanKekongruenMMK9Page from "./pages/materi-matematika/kelas9/KesebangunanKekongruenPage";
+import TransformasiGeometriMMK9Page from "./pages/materi-matematika/kelas9/TransformasiGeometriPage";
+import BangunRuangSisiLengkungMMK9Page from "./pages/materi-matematika/kelas9/BangunRuangSisiLengkungPage";
+import StatistikaMMK9Page from "./pages/materi-matematika/kelas9/StatistikaPage";
+import PeluangMMK9Page from "./pages/materi-matematika/kelas9/PeluangPage";
+import PersamaanKuadratMMK9Page from "./pages/materi-matematika/kelas9/PersamaanKuadratPage";
+import FungsiKuadratMMK9Page from "./pages/materi-matematika/kelas9/FungsiKuadratPage";
+
 const queryClient = new QueryClient();
 
 const AppInner = () => {
@@ -208,6 +246,44 @@ const AppInner = () => {
       <Route path="/math-game-arena/kelas-9/peluang" element={<PeluangMGAK9Page />} />
       <Route path="/math-game-arena/kelas-9/persamaan-kuadrat" element={<PersamaanKuadratMGAK9Page />} />
       <Route path="/math-game-arena/kelas-9/fungsi-kuadrat" element={<FungsiKuadratMGAK9Page />} />
+      
+      {/* Materi Matematika Routes */}
+      <Route path="/materi-matematika" element={<MateriMatematikaPage />} />
+      <Route path="/materi-matematika/kelas-7" element={<MateriMatematikaKelas7Page />} />
+      <Route path="/materi-matematika/kelas-8" element={<MateriMatematikaKelas8Page />} />
+      <Route path="/materi-matematika/kelas-9" element={<MateriMatematikaKelas9Page />} />
+      
+      {/* Materi Matematika - Kelas 7 Topic Routes */}
+      <Route path="/materi-matematika/kelas-7/bilangan-bulat" element={<BilanganBulatMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/bilangan-rasional" element={<BilanganRasionalMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/aljabar" element={<AljabarMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/plsv-ptlsv" element={<PLSVPtLSVMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/perbandingan" element={<PerbandinganMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/aritmetika-sosial" element={<AritmetikaSosialMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/garis-dan-sudut" element={<GarisDanSudutMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/segitiga-dan-segiempat" element={<SegitigaSegiempatMMK7Page />} />
+      <Route path="/materi-matematika/kelas-7/himpunan" element={<HimpunanMMK7Page />} />
+      
+      {/* Materi Matematika - Kelas 8 Topic Routes */}
+      <Route path="/materi-matematika/kelas-8/pola-bilangan" element={<PolaBilanganMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/koordinat-cartesius" element={<KoordinatCartesiusMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/relasi-dan-fungsi" element={<RelasiFungsiMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/spldv" element={<SPLDVMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/persamaan-garis-lurus" element={<PersamaanGarisLurusMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/teorema-pythagoras" element={<TeoremaPythagorasMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/lingkaran" element={<LingkaranMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/garis-singgung-lingkaran" element={<GarisSinggungLingkaranMMK8Page />} />
+      <Route path="/materi-matematika/kelas-8/bangun-ruang-sisi-datar" element={<BangunRuangSisiDatarMMK8Page />} />
+      
+      {/* Materi Matematika - Kelas 9 Topic Routes */}
+      <Route path="/materi-matematika/kelas-9/bilangan-berpangkat" element={<BilanganBerpangkatMMK9Page />} />
+      <Route path="/materi-matematika/kelas-9/kesebangunan-kekongruenan" element={<KesebangunanKekongruenMMK9Page />} />
+      <Route path="/materi-matematika/kelas-9/transformasi-geometri" element={<TransformasiGeometriMMK9Page />} />
+      <Route path="/materi-matematika/kelas-9/bangun-ruang-sisi-lengkung" element={<BangunRuangSisiLengkungMMK9Page />} />
+      <Route path="/materi-matematika/kelas-9/statistika" element={<StatistikaMMK9Page />} />
+      <Route path="/materi-matematika/kelas-9/peluang" element={<PeluangMMK9Page />} />
+      <Route path="/materi-matematika/kelas-9/persamaan-kuadrat" element={<PersamaanKuadratMMK9Page />} />
+      <Route path="/materi-matematika/kelas-9/fungsi-kuadrat" element={<FungsiKuadratMMK9Page />} />
       
       <Route path="*" element={<NotFound />} />
     </Routes>
