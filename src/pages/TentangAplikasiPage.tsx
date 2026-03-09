@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import Starfield from "@/components/Starfield";
 import PageNavigation from "@/components/PageNavigation";
 import { useNavigate } from "react-router-dom";
@@ -6,9 +7,18 @@ import { logoNumatik } from "@/assets/placeholder";
 
 const TentangAplikasiPage = () => {
   const navigate = useNavigate();
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Reset scroll position to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (containerRef.current) {
+      containerRef.current.scrollTop = 0;
+    }
+  }, []);
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center gradient-space overflow-hidden">
+    <div ref={containerRef} className="relative min-h-screen flex flex-col items-center gradient-space overflow-hidden">
       <Starfield />
 
       {/* Shooting stars effect */}
