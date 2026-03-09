@@ -9,40 +9,13 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import WelcomePage from "./pages/WelcomePage";
 import MenuPage from "./pages/MenuPage";
 import PetunjukPage from "./pages/PetunjukPage";
-import MateriPage from "./pages/MateriPage";
-import KubusPage from "./pages/KubusPage";
-import LingkaranMateriPage from "./pages/LingkaranMateriPage";
-import LatihanPage from "./pages/LatihanPage";
 import QuizPage from "./pages/QuizPage";
-import LingkaranQuizPage from "./pages/LingkaranQuizPage";
 import ReferensiPage from "./pages/ReferensiPage";
-import TugasMandiriPage from "./pages/TugasMandiriPage";
 import DonasiPage from "./pages/DonasiPage";
 import BiografiPage from "./pages/BiografiPage";
 import OlimpiadePage from "./pages/OlimpiadePage";
 import OlimpiadeBilanganBulatPage from "./pages/OlimpiadeBilanganBulatPage";
 import TKAPage from "./pages/TKAPage";
-import PerbandinganMenuPage from "./pages/PerbandinganMenuPage";
-import PerbandinganUmumPage from "./pages/PerbandinganUmumPage";
-import AljabarMateriPage from "./pages/AljabarMateriPage";
-import BilanganBulatMenuPage from "./pages/BilanganBulatMenuPage";
-import BilanganRasionalMenuPage from "./pages/BilanganRasionalMenuPage";
-import AljabarMenuPage from "./pages/AljabarMenuPage";
-import PersamaanMenuPage from "./pages/PersamaanMenuPage";
-import AritmetikaSosialMenuPage from "./pages/AritmetikaSosialMenuPage";
-import GarisDanSudutMenuPage from "./pages/GarisDanSudutMenuPage";
-import HimpunanMenuPage from "./pages/HimpunanMenuPage";
-import SegitigaDanSegiempatMenuPage from "./pages/SegitigaDanSegiempatMenuPage";
-import BilanganBerpangkatMenuPage from "./pages/BilanganBerpangkatMenuPage";
-import KesebangunanDanKekongruenMenuPage from "./pages/KesebangunanDanKekongruenMenuPage";
-import TransformasiGeometriMenuPage from "./pages/TransformasiGeometriMenuPage";
-import BangunRuangSisiLengkungMenuPage from "./pages/BangunRuangSisiLengkungMenuPage";
-import BangunRuangSisiDatarMenuPage from "./pages/BangunRuangSisiDatarMenuPage";
-import TeoremaPythagorasMenuPage from "./pages/TeoremaPythagorasMenuPage";
-import StatistikaMenuPage from "./pages/StatistikaMenuPage";
-import PeluangMenuPage from "./pages/PeluangMenuPage";
-import PersamaanGarisLurusMenuPage from "./pages/PersamaanGarisLurusMenuPage";
-import PolaBilanganMenuPage from "./pages/PolaBilanganMenuPage";
 import PapanPeringkatPage from "./pages/PapanPeringkatPage";
 import BankSoalPage from "./pages/BankSoalPage";
 import ChatAIPage from "./pages/ChatAIPage";
@@ -69,35 +42,8 @@ const AppInner = () => {
       <Route path="/" element={<WelcomePage />} />
       <Route path="/menu" element={<MenuPage />} />
       <Route path="/petunjuk" element={<PetunjukPage />} />
-      <Route path="/materi" element={<MateriPage />} />
-      <Route path="/materi/bilangan-bulat" element={<BilanganBulatMenuPage />} />
-      <Route path="/materi/bilangan-rasional" element={<BilanganRasionalMenuPage />} />
-      <Route path="/materi/aljabar-menu" element={<AljabarMenuPage />} />
-      <Route path="/materi/persamaan-menu" element={<PersamaanMenuPage />} />
-      <Route path="/materi/kubus" element={<KubusPage />} />
-      <Route path="/materi/lingkaran" element={<LingkaranMateriPage />} />
-      <Route path="/materi/perbandingan" element={<PerbandinganMenuPage />} />
-      <Route path="/materi/perbandingan/umum" element={<PerbandinganUmumPage />} />
-      <Route path="/materi/aljabar" element={<AljabarMateriPage />} />
-      <Route path="/materi/aritmetika-sosial" element={<AritmetikaSosialMenuPage />} />
-      <Route path="/materi/garis-dan-sudut" element={<GarisDanSudutMenuPage />} />
-      <Route path="/materi/himpunan" element={<HimpunanMenuPage />} />
-      <Route path="/materi/segitiga-dan-segiempat" element={<SegitigaDanSegiempatMenuPage />} />
-      <Route path="/materi/bilangan-berpangkat" element={<BilanganBerpangkatMenuPage />} />
-      <Route path="/materi/kesebangunan-dan-kekongruen" element={<KesebangunanDanKekongruenMenuPage />} />
-      <Route path="/materi/transformasi-geometri" element={<TransformasiGeometriMenuPage />} />
-      <Route path="/materi/bangun-ruang-sisi-lengkung" element={<BangunRuangSisiLengkungMenuPage />} />
-      <Route path="/materi/bangun-ruang-sisi-datar" element={<BangunRuangSisiDatarMenuPage />} />
-      <Route path="/materi/teorema-pythagoras" element={<TeoremaPythagorasMenuPage />} />
-      <Route path="/materi/statistika" element={<StatistikaMenuPage />} />
-      <Route path="/materi/peluang" element={<PeluangMenuPage />} />
-      <Route path="/materi/persamaan-garis-lurus" element={<PersamaanGarisLurusMenuPage />} />
-      <Route path="/materi/pola-bilangan" element={<PolaBilanganMenuPage />} />
-      <Route path="/latihan" element={<LatihanPage />} />
       <Route path="/quiz" element={<QuizPage />} />
-      <Route path="/lingkaran-quiz" element={<LingkaranQuizPage />} />
       <Route path="/referensi" element={<ReferensiPage />} />
-      <Route path="/tugas-mandiri" element={<TugasMandiriPage />} />
       <Route path="/kalkulator-scientific" element={<KalkulatorScientificPage />} />
       <Route path="/video-pembelajaran" element={<VideoPembelajaranPage />} />
       <Route path="/donasi" element={<DonasiPage />} />
