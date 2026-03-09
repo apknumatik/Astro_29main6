@@ -9,40 +9,13 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import WelcomePage from "./pages/WelcomePage";
 import MenuPage from "./pages/MenuPage";
 import PetunjukPage from "./pages/PetunjukPage";
-import MateriPage from "./pages/MateriPage";
-import KubusPage from "./pages/KubusPage";
-import LingkaranMateriPage from "./pages/LingkaranMateriPage";
-import LatihanPage from "./pages/LatihanPage";
 import QuizPage from "./pages/QuizPage";
-import LingkaranQuizPage from "./pages/LingkaranQuizPage";
 import ReferensiPage from "./pages/ReferensiPage";
-import TugasMandiriPage from "./pages/TugasMandiriPage";
 import DonasiPage from "./pages/DonasiPage";
 import BiografiPage from "./pages/BiografiPage";
 import OlimpiadePage from "./pages/OlimpiadePage";
 import OlimpiadeBilanganBulatPage from "./pages/OlimpiadeBilanganBulatPage";
 import TKAPage from "./pages/TKAPage";
-import PerbandinganMenuPage from "./pages/PerbandinganMenuPage";
-import PerbandinganUmumPage from "./pages/PerbandinganUmumPage";
-import AljabarMateriPage from "./pages/AljabarMateriPage";
-import BilanganBulatMenuPage from "./pages/BilanganBulatMenuPage";
-import BilanganRasionalMenuPage from "./pages/BilanganRasionalMenuPage";
-import AljabarMenuPage from "./pages/AljabarMenuPage";
-import PersamaanMenuPage from "./pages/PersamaanMenuPage";
-import AritmetikaSosialMenuPage from "./pages/AritmetikaSosialMenuPage";
-import GarisDanSudutMenuPage from "./pages/GarisDanSudutMenuPage";
-import HimpunanMenuPage from "./pages/HimpunanMenuPage";
-import SegitigaDanSegiempatMenuPage from "./pages/SegitigaDanSegiempatMenuPage";
-import BilanganBerpangkatMenuPage from "./pages/BilanganBerpangkatMenuPage";
-import KesebangunanDanKekongruenMenuPage from "./pages/KesebangunanDanKekongruenMenuPage";
-import TransformasiGeometriMenuPage from "./pages/TransformasiGeometriMenuPage";
-import BangunRuangSisiLengkungMenuPage from "./pages/BangunRuangSisiLengkungMenuPage";
-import BangunRuangSisiDatarMenuPage from "./pages/BangunRuangSisiDatarMenuPage";
-import TeoremaPythagorasMenuPage from "./pages/TeoremaPythagorasMenuPage";
-import StatistikaMenuPage from "./pages/StatistikaMenuPage";
-import PeluangMenuPage from "./pages/PeluangMenuPage";
-import PersamaanGarisLurusMenuPage from "./pages/PersamaanGarisLurusMenuPage";
-import PolaBilanganMenuPage from "./pages/PolaBilanganMenuPage";
 import PapanPeringkatPage from "./pages/PapanPeringkatPage";
 import BankSoalPage from "./pages/BankSoalPage";
 import ChatAIPage from "./pages/ChatAIPage";
@@ -51,6 +24,44 @@ import TentangAplikasiPage from "./pages/TentangAplikasiPage";
 import KalkulatorScientificPage from "./pages/KalkulatorScientificPage";
 import VideoPembelajaranPage from "./pages/VideoPembelajaranPage";
 import NotFound from "./pages/NotFound";
+
+// Latihan Mandiri Pages
+import LatihanMandiriPage from "./pages/LatihanMandiriPage";
+import LatihanMandiriKelas7Page from "./pages/LatihanMandiriKelas7Page";
+import LatihanMandiriKelas8Page from "./pages/LatihanMandiriKelas8Page";
+import LatihanMandiriKelas9Page from "./pages/LatihanMandiriKelas9Page";
+
+// Kelas 7 Topic Pages
+import BilanganBulatK7Page from "./pages/latihan-mandiri/kelas7/BilanganBulatPage";
+import BilanganRasionalK7Page from "./pages/latihan-mandiri/kelas7/BilanganRasionalPage";
+import AljabarK7Page from "./pages/latihan-mandiri/kelas7/AljabarPage";
+import PLSVPtLSVK7Page from "./pages/latihan-mandiri/kelas7/PLSVPtLSVPage";
+import PerbandinganK7Page from "./pages/latihan-mandiri/kelas7/PerbandinganPage";
+import AritmetikaSosialK7Page from "./pages/latihan-mandiri/kelas7/AritmetikaSosialPage";
+import GarisDanSudutK7Page from "./pages/latihan-mandiri/kelas7/GarisDanSudutPage";
+import SegitigaSegiempatK7Page from "./pages/latihan-mandiri/kelas7/SegitigaSegiempatPage";
+import HimpunanK7Page from "./pages/latihan-mandiri/kelas7/HimpunanPage";
+
+// Kelas 8 Topic Pages
+import PolaBilanganK8Page from "./pages/latihan-mandiri/kelas8/PolaBilanganPage";
+import KoordinatCartesiusK8Page from "./pages/latihan-mandiri/kelas8/KoordinatCartesiusPage";
+import RelasiFungsiK8Page from "./pages/latihan-mandiri/kelas8/RelasiFungsiPage";
+import SPLDVK8Page from "./pages/latihan-mandiri/kelas8/SPLDVPage";
+import PersamaanGarisLurusK8Page from "./pages/latihan-mandiri/kelas8/PersamaanGarisLurusPage";
+import TeoremaPythagorasK8Page from "./pages/latihan-mandiri/kelas8/TeoremaPythagorasPage";
+import LingkaranK8Page from "./pages/latihan-mandiri/kelas8/LingkaranPage";
+import GarisSinggungLingkaranK8Page from "./pages/latihan-mandiri/kelas8/GarisSinggungLingkaranPage";
+import BangunRuangSisiDatarK8Page from "./pages/latihan-mandiri/kelas8/BangunRuangSisiDatarPage";
+
+// Kelas 9 Topic Pages
+import BilanganBerpangkatK9Page from "./pages/latihan-mandiri/kelas9/BilanganBerpangkatPage";
+import KesebangunanKekongruenK9Page from "./pages/latihan-mandiri/kelas9/KesebangunanKekongruenPage";
+import TransformasiGeometriK9Page from "./pages/latihan-mandiri/kelas9/TransformasiGeometriPage";
+import BangunRuangSisiLengkungK9Page from "./pages/latihan-mandiri/kelas9/BangunRuangSisiLengkungPage";
+import StatistikaK9Page from "./pages/latihan-mandiri/kelas9/StatistikaPage";
+import PeluangK9Page from "./pages/latihan-mandiri/kelas9/PeluangPage";
+import PersamaanKuadratK9Page from "./pages/latihan-mandiri/kelas9/PersamaanKuadratPage";
+import FungsiKuadratK9Page from "./pages/latihan-mandiri/kelas9/FungsiKuadratPage";
 
 const queryClient = new QueryClient();
 
@@ -69,35 +80,8 @@ const AppInner = () => {
       <Route path="/" element={<WelcomePage />} />
       <Route path="/menu" element={<MenuPage />} />
       <Route path="/petunjuk" element={<PetunjukPage />} />
-      <Route path="/materi" element={<MateriPage />} />
-      <Route path="/materi/bilangan-bulat" element={<BilanganBulatMenuPage />} />
-      <Route path="/materi/bilangan-rasional" element={<BilanganRasionalMenuPage />} />
-      <Route path="/materi/aljabar-menu" element={<AljabarMenuPage />} />
-      <Route path="/materi/persamaan-menu" element={<PersamaanMenuPage />} />
-      <Route path="/materi/kubus" element={<KubusPage />} />
-      <Route path="/materi/lingkaran" element={<LingkaranMateriPage />} />
-      <Route path="/materi/perbandingan" element={<PerbandinganMenuPage />} />
-      <Route path="/materi/perbandingan/umum" element={<PerbandinganUmumPage />} />
-      <Route path="/materi/aljabar" element={<AljabarMateriPage />} />
-      <Route path="/materi/aritmetika-sosial" element={<AritmetikaSosialMenuPage />} />
-      <Route path="/materi/garis-dan-sudut" element={<GarisDanSudutMenuPage />} />
-      <Route path="/materi/himpunan" element={<HimpunanMenuPage />} />
-      <Route path="/materi/segitiga-dan-segiempat" element={<SegitigaDanSegiempatMenuPage />} />
-      <Route path="/materi/bilangan-berpangkat" element={<BilanganBerpangkatMenuPage />} />
-      <Route path="/materi/kesebangunan-dan-kekongruen" element={<KesebangunanDanKekongruenMenuPage />} />
-      <Route path="/materi/transformasi-geometri" element={<TransformasiGeometriMenuPage />} />
-      <Route path="/materi/bangun-ruang-sisi-lengkung" element={<BangunRuangSisiLengkungMenuPage />} />
-      <Route path="/materi/bangun-ruang-sisi-datar" element={<BangunRuangSisiDatarMenuPage />} />
-      <Route path="/materi/teorema-pythagoras" element={<TeoremaPythagorasMenuPage />} />
-      <Route path="/materi/statistika" element={<StatistikaMenuPage />} />
-      <Route path="/materi/peluang" element={<PeluangMenuPage />} />
-      <Route path="/materi/persamaan-garis-lurus" element={<PersamaanGarisLurusMenuPage />} />
-      <Route path="/materi/pola-bilangan" element={<PolaBilanganMenuPage />} />
-      <Route path="/latihan" element={<LatihanPage />} />
       <Route path="/quiz" element={<QuizPage />} />
-      <Route path="/lingkaran-quiz" element={<LingkaranQuizPage />} />
       <Route path="/referensi" element={<ReferensiPage />} />
-      <Route path="/tugas-mandiri" element={<TugasMandiriPage />} />
       <Route path="/kalkulator-scientific" element={<KalkulatorScientificPage />} />
       <Route path="/video-pembelajaran" element={<VideoPembelajaranPage />} />
       <Route path="/donasi" element={<DonasiPage />} />
@@ -110,6 +94,45 @@ const AppInner = () => {
       <Route path="/chat-ai" element={<ChatAIPage />} />
       <Route path="/pengaturan" element={<PengaturanPage />} />
       <Route path="/tentang-aplikasi" element={<TentangAplikasiPage />} />
+      
+      {/* Latihan Mandiri Routes */}
+      <Route path="/latihan-mandiri" element={<LatihanMandiriPage />} />
+      <Route path="/latihan-mandiri/kelas-7" element={<LatihanMandiriKelas7Page />} />
+      <Route path="/latihan-mandiri/kelas-8" element={<LatihanMandiriKelas8Page />} />
+      <Route path="/latihan-mandiri/kelas-9" element={<LatihanMandiriKelas9Page />} />
+      
+      {/* Kelas 7 Topic Routes */}
+      <Route path="/latihan-mandiri/kelas-7/bilangan-bulat" element={<BilanganBulatK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/bilangan-rasional" element={<BilanganRasionalK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/aljabar" element={<AljabarK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/plsv-ptlsv" element={<PLSVPtLSVK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/perbandingan" element={<PerbandinganK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/aritmetika-sosial" element={<AritmetikaSosialK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/garis-dan-sudut" element={<GarisDanSudutK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/segitiga-dan-segiempat" element={<SegitigaSegiempatK7Page />} />
+      <Route path="/latihan-mandiri/kelas-7/himpunan" element={<HimpunanK7Page />} />
+      
+      {/* Kelas 8 Topic Routes */}
+      <Route path="/latihan-mandiri/kelas-8/pola-bilangan" element={<PolaBilanganK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/koordinat-cartesius" element={<KoordinatCartesiusK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/relasi-dan-fungsi" element={<RelasiFungsiK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/spldv" element={<SPLDVK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/persamaan-garis-lurus" element={<PersamaanGarisLurusK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/teorema-pythagoras" element={<TeoremaPythagorasK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/lingkaran" element={<LingkaranK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/garis-singgung-lingkaran" element={<GarisSinggungLingkaranK8Page />} />
+      <Route path="/latihan-mandiri/kelas-8/bangun-ruang-sisi-datar" element={<BangunRuangSisiDatarK8Page />} />
+      
+      {/* Kelas 9 Topic Routes */}
+      <Route path="/latihan-mandiri/kelas-9/bilangan-berpangkat" element={<BilanganBerpangkatK9Page />} />
+      <Route path="/latihan-mandiri/kelas-9/kesebangunan-kekongruenan" element={<KesebangunanKekongruenK9Page />} />
+      <Route path="/latihan-mandiri/kelas-9/transformasi-geometri" element={<TransformasiGeometriK9Page />} />
+      <Route path="/latihan-mandiri/kelas-9/bangun-ruang-sisi-lengkung" element={<BangunRuangSisiLengkungK9Page />} />
+      <Route path="/latihan-mandiri/kelas-9/statistika" element={<StatistikaK9Page />} />
+      <Route path="/latihan-mandiri/kelas-9/peluang" element={<PeluangK9Page />} />
+      <Route path="/latihan-mandiri/kelas-9/persamaan-kuadrat" element={<PersamaanKuadratK9Page />} />
+      <Route path="/latihan-mandiri/kelas-9/fungsi-kuadrat" element={<FungsiKuadratK9Page />} />
+      
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
