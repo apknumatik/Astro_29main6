@@ -98,16 +98,14 @@ const LatihanPage = () => {
                     cursor-pointer text-left animate-slide-up"
                   style={{ animationDelay: `${i * 0.05}s` }}
                   onClick={() => {
-                    if (topik === "BANGUN RUANG SISI DATAR") {
-                      navigate("/quiz");
-                    } else if (topik === "LINGKARAN") {
+                    if (topik === "LINGKARAN") {
                       navigate("/lingkaran-quiz");
                     }
                   }}
                 >
                   <Gamepad2 className="w-5 h-5 text-primary shrink-0 group-hover:scale-110 transition-transform" />
                   <span className="font-body text-sm text-white">{topik}</span>
-                  {(topik === "BANGUN RUANG SISI DATAR" || topik === "LINGKARAN") && (
+                  {topik === "LINGKARAN" && (
                     <span className="ml-auto text-xs text-accent font-display">🚀 PLAY</span>
                   )}
                 </button>

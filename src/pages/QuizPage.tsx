@@ -154,7 +154,7 @@ const QuizPage = () => {
             MULAI
           </button>
           <div className="mt-6">
-            <button onClick={() => navigate("/latihan")} className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer">← Kembali ke Latihan</button>
+            <button onClick={() => navigate("/olimpiade")} className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer">← Kembali ke Olimpiade</button>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@ const QuizPage = () => {
           </div>
           <div className="flex gap-4 justify-center">
             <button onClick={handleStart} className="font-display text-sm px-6 py-2 rounded-lg bg-primary text-primary-foreground cursor-pointer hover:opacity-90">🔄 Ulangi</button>
-            <button onClick={() => navigate("/latihan")} className="font-display text-sm px-6 py-2 rounded-lg bg-muted text-foreground cursor-pointer hover:opacity-90">Latihan</button>
+            <button onClick={() => navigate("/olimpiade")} className="font-display text-sm px-6 py-2 rounded-lg bg-muted text-foreground cursor-pointer hover:opacity-90">Olimpiade</button>
             <button onClick={() => navigate("/menu")} className="font-display text-sm px-6 py-2 rounded-lg bg-muted text-foreground cursor-pointer hover:opacity-90">Menu</button>
           </div>
         </div>
